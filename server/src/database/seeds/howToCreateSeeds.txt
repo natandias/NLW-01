@@ -1,0 +1,1 @@
+name=seeds_name npm run makeSeed
