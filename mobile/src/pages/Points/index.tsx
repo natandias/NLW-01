@@ -79,7 +79,7 @@ const Points = () => {
     api
       .get("points", {
         params: {
-          city: routeParams.city.trim(),
+          city: routeParams.city,
           uf: routeParams.uf,
           items: selectedItems,
         },
